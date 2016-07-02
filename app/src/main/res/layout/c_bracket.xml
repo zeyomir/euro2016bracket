@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/drawing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/crest1_1"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_2"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_1"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_3"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_2"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_4"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_3"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_5"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_4"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_6"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_5"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_7"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_6"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_8"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_7"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_9"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_8"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_10"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_9"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_11"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_10"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_12"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_11"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_13"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_12"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_14"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_13"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_15"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_14"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest1_16"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/crest1_15"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <!-- second matchday -->
+
+        <ImageView
+            android:id="@+id/crest2_1"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest1_2"
+            android:layout_alignTop="@+id/crest1_1"
+            android:layout_toRightOf="@+id/direction_connector_1_1"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitEnd"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+
+        <ImageView
+            android:id="@+id/crest2_2"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest1_4"
+            android:layout_alignTop="@+id/crest1_3"
+            android:layout_toRightOf="@+id/direction_connector_1_2"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitStart"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest2_3"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest1_6"
+            android:layout_alignTop="@+id/crest1_5"
+            android:layout_toRightOf="@+id/direction_connector_1_3"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitEnd"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+
+        <ImageView
+            android:id="@+id/crest2_4"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest1_8"
+            android:layout_alignTop="@+id/crest1_7"
+            android:layout_toRightOf="@+id/direction_connector_1_4"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitStart"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+
+        <ImageView
+            android:id="@+id/crest2_5"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest1_10"
+            android:layout_alignTop="@+id/crest1_9"
+            android:layout_toRightOf="@+id/direction_connector_1_5"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitEnd"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest2_6"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest1_12"
+            android:layout_alignTop="@+id/crest1_11"
+            android:layout_toRightOf="@+id/direction_connector_1_6"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitStart"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest2_7"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest1_14"
+            android:layout_alignTop="@+id/crest1_13"
+            android:layout_toRightOf="@+id/direction_connector_1_7"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitEnd"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest2_8"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest1_16"
+            android:layout_alignTop="@+id/crest1_15"
+            android:layout_toRightOf="@+id/direction_connector_1_8"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitStart"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <!-- third matchday -->
+
+        <ImageView
+            android:id="@+id/crest3_1"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest2_2"
+            android:layout_alignTop="@+id/crest2_1"
+            android:layout_toRightOf="@+id/direction_connector_2_1"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitEnd"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest3_2"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest2_4"
+            android:layout_alignTop="@+id/crest2_3"
+            android:layout_toRightOf="@+id/direction_connector_2_2"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitStart"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest3_3"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest2_6"
+            android:layout_alignTop="@+id/crest2_5"
+            android:layout_toRightOf="@+id/direction_connector_2_3"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitEnd"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest3_4"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest2_8"
+            android:layout_alignTop="@+id/crest2_7"
+            android:layout_toRightOf="@+id/direction_connector_2_4"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitStart"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <!-- fourth matchday -->
+
+        <ImageView
+            android:id="@+id/crest4_1"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest3_2"
+            android:layout_alignTop="@+id/crest3_1"
+            android:layout_toRightOf="@+id/direction_connector_3_1"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitEnd"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <ImageView
+            android:id="@+id/crest4_2"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_alignBottom="@+id/crest3_4"
+            android:layout_alignTop="@+id/crest3_3"
+            android:layout_toRightOf="@+id/direction_connector_3_2"
+            android:paddingBottom="@dimen/flag_margin"
+            android:paddingTop="@dimen/flag_margin"
+            android:scaleType="fitStart"
+            android:src="@drawable/unknown_flag"
+            tools:background="#ff0" />
+
+        <!-- connectors day 1 -> day 2 -->
+
+        <FrameLayout
+            android:id="@+id/connector_1_1_1_2"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest1_2"
+            android:layout_alignTop="@+id/crest1_1"
+            android:layout_toRightOf="@+id/crest1_1">
+
+            <View
+                android:id="@+id/connector_1_1_1_2_inner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_1_1"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest2_2"
+            android:layout_below="@+id/crest1_1"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_1_1_1_2"
+            android:background="@drawable/direction_connector"
+            android:scaleY="-1" />
+
+        <FrameLayout
+            android:id="@+id/connector_1_3_1_4"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest1_4"
+            android:layout_alignTop="@+id/crest1_3"
+            android:layout_toRightOf="@+id/crest1_3">
+
+            <View
+                android:id="@+id/connector_1_3_1_4_inner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_1_2"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest1_4"
+            android:layout_below="@+id/crest2_1"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_1_3_1_4"
+            android:background="@drawable/direction_connector" />
+
+        <FrameLayout
+            android:id="@+id/connector_1_5_1_6"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest1_6"
+            android:layout_alignTop="@+id/crest1_5"
+            android:layout_toRightOf="@+id/crest1_5">
+
+            <View
+                android:id="@+id/connector_1_5_1_6_inner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_1_3"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest2_4"
+            android:layout_below="@+id/crest1_5"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_1_5_1_6"
+            android:background="@drawable/direction_connector"
+            android:scaleY="-1" />
+
+        <FrameLayout
+            android:id="@+id/connector_1_7_1_8"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest1_8"
+            android:layout_alignTop="@+id/crest1_7"
+            android:layout_toRightOf="@+id/crest1_7">
+
+            <View
+                android:id="@+id/connector_1_7_1_8_inner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_1_4"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest1_8"
+            android:layout_below="@+id/crest2_3"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_1_7_1_8"
+            android:background="@drawable/direction_connector" />
+
+        <FrameLayout
+            android:id="@+id/connector_1_9_1_10"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest1_10"
+            android:layout_alignTop="@+id/crest1_9"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/crest1_9">
+
+            <View
+                android:id="@+id/connector_1_9_1_10_inner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_1_5"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest2_6"
+            android:layout_below="@+id/crest1_9"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_1_9_1_10"
+            android:background="@drawable/direction_connector"
+            android:scaleY="-1" />
+
+        <FrameLayout
+            android:id="@+id/connector_1_11_1_12"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest1_12"
+            android:layout_alignTop="@+id/crest1_11"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/crest1_11">
+
+            <View
+                android:id="@+id/connector_1_11_1_12_inner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_1_6"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest1_12"
+            android:layout_below="@+id/crest2_5"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_1_11_1_12"
+            android:background="@drawable/direction_connector" />
+
+        <FrameLayout
+            android:id="@+id/connector_1_13_1_14"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest1_14"
+            android:layout_alignTop="@+id/crest1_13"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/crest1_13">
+
+            <View
+                android:id="@+id/connector_1_13_1_14_inner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_1_7"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest2_8"
+            android:layout_below="@+id/crest1_13"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_1_13_1_14"
+            android:background="@drawable/direction_connector"
+            android:scaleY="-1" />
+
+        <FrameLayout
+            android:id="@+id/connector_1_15_1_16"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest1_16"
+            android:layout_alignTop="@+id/crest1_15"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/crest1_15">
+
+            <View
+                android:id="@+id/connector_1_15_1_16_inner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_1_8"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest1_16"
+            android:layout_below="@+id/crest2_7"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_1_3_1_4"
+            android:background="@drawable/direction_connector" />
+
+        <!-- connectors day 2 -> day 3 -->
+
+        <FrameLayout
+            android:id="@+id/connector_2_1_2_2"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest2_2"
+            android:layout_alignTop="@+id/crest2_1"
+            android:layout_toRightOf="@+id/crest2_1">
+
+            <View
+                android:id="@+id/connector_2_1_2_2_inner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_2_1"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest3_2"
+            android:layout_below="@+id/crest2_1"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_2_1_2_2"
+            android:background="@drawable/direction_connector"
+            android:scaleY="-1" />
+
+        <FrameLayout
+            android:id="@+id/connector_2_3_2_4"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest2_4"
+            android:layout_alignTop="@+id/crest2_3"
+            android:layout_toRightOf="@+id/crest2_3">
+
+            <View
+                android:id="@+id/connector_2_3_2_4_inner"
+                android:layout_width="@dimen/connector_size"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_2_2"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest2_4"
+            android:layout_below="@+id/crest3_1"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_2_3_2_4"
+            android:background="@drawable/direction_connector" />
+
+        <FrameLayout
+            android:id="@+id/connector_2_5_2_6"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest2_6"
+            android:layout_alignTop="@+id/crest2_5"
+            android:layout_toRightOf="@+id/crest2_5">
+
+            <View
+                android:id="@+id/connector_2_5_2_6_inner"
+                android:layout_width="@dimen/connector_size"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_2_3"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest3_4"
+            android:layout_below="@+id/crest2_5"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_2_1_2_2"
+            android:background="@drawable/direction_connector"
+            android:scaleY="-1" />
+
+        <FrameLayout
+            android:id="@+id/connector_2_7_2_8"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest2_8"
+            android:layout_alignTop="@+id/crest2_7"
+            android:layout_toRightOf="@+id/crest2_7">
+
+            <View
+                android:id="@+id/connector_2_7_2_8_inner"
+                android:layout_width="@dimen/connector_size"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_2_4"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest2_8"
+            android:layout_below="@+id/crest3_3"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_2_3_2_4"
+            android:background="@drawable/direction_connector" />
+
+        <!-- connectors day 3 -> day 4 -->
+
+        <FrameLayout
+            android:id="@+id/connector_3_1_3_2"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest3_2"
+            android:layout_alignTop="@+id/crest3_1"
+            android:layout_toRightOf="@+id/crest3_1">
+
+            <View
+                android:id="@+id/connector_3_1_3_2_inner"
+                android:layout_width="@dimen/connector_size"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_3_1"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest4_2"
+            android:layout_below="@+id/crest3_1"
+            android:layout_marginBottom="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_3_1_3_2"
+            android:background="@drawable/direction_connector"
+            android:scaleY="-1" />
+
+        <FrameLayout
+            android:id="@+id/connector_3_3_3_4"
+            android:layout_width="@dimen/connector_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/crest3_4"
+            android:layout_alignTop="@+id/crest3_3"
+            android:layout_toRightOf="@+id/crest3_3">
+
+            <View
+                android:id="@+id/connector_3_3_3_4_inner"
+                android:layout_width="@dimen/connector_size"
+                android:layout_height="@dimen/flag_size"
+                android:layout_gravity="center"
+                android:background="@drawable/connector" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/direction_connector_3_2"
+            android:layout_width="@dimen/direct_conector_size"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/crest3_4"
+            android:layout_below="@+id/crest4_1"
+            android:layout_marginTop="@dimen/half_flag_size"
+            android:layout_toRightOf="@+id/connector_3_3_3_4"
+            android:background="@drawable/direction_connector" />
+
+    </RelativeLayout>
+
+    <pl.mzawisza.euro2016bracket.view.custom.TouchImageView
+        android:id="@+id/rendered"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

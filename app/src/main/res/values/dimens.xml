@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="flag_size">25dp</dimen>
+    <dimen name="flag_margin">4dp</dimen>
+    <dimen name="connector_size">5dp</dimen>
+    <dimen name="half_flag_size">13dp</dimen>
+    <dimen name="direct_conector_size">20dp</dimen>
+</resources>
